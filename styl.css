@@ -169,7 +169,16 @@ img {
   font-weight: bold;
 }
 
-.menu-toggle {.navbar {
+.menu-toggle {
+  display: none;
+  font-size: 1.8em;
+  color: white;
+  cursor: pointer;
+}
+
+/*  */
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,6 +209,7 @@ img {
   display: none;
 }
 
+
 @media screen and (max-width: 768px) {
   .menu {
     position: absolute;
@@ -219,9 +229,4 @@ img {
   .menu-icon {
     display: block;
   }
-}
-  display: none;
-  font-size: 1.8em;
-  color: white;
-  cursor: pointer;
 }
